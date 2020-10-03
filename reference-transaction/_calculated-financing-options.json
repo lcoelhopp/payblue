@@ -1,0 +1,449 @@
+{
+    "configuration_owner_account": "FRC2DS5EKVN4E",
+    "financing_options": [
+        {
+            "product": "CARD_ISSUER_INSTALLMENTS",
+            "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+            "option_set_id": "a16e98a8-3bba-4108-9ba9-26b21f01289d",
+            "qualifying_financing_options": [
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 1,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "discount_amount": {
+                        "currency_code": "BRL",
+                        "value": "0.00"
+                    },
+                    "discount_percentage": "0.00",
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 2,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "50.00"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "50.00"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 3,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "33.33"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "33.33"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 4,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "25.00"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "25.00"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 5,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "20.00"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "20.00"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 6,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "16.66"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "16.66"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 7,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "14.28"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "14.28"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 8,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "12.50"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "12.50"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 9,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "11.11"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "11.11"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 10,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 11,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "9.09"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "9.09"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                },
+                {
+                    "credit_financing": {
+                        "product": "CARD_ISSUER_INSTALLMENTS",
+                        "credit_product_identifier": "CREDIT_CARD_INSTALLMENTS_BR",
+                        "apr": "0",
+                        "nominal_rate": "0",
+                        "term": 12,
+                        "interval": "MONTHS",
+                        "interval_duration": "P1M",
+                        "country_code": "BR",
+                        "credit_type": "INST",
+                        "enabled": true
+                    },
+                    "min_amount": {
+                        "currency_code": "BRL",
+                        "value": "10.00"
+                    },
+                    "monthly_percentage_rate": "0",
+                    "periodic_payment": {
+                        "currency_code": "BRL",
+                        "value": "8.33"
+                    },
+                    "monthly_payment": {
+                        "currency_code": "BRL",
+                        "value": "8.33"
+                    },
+                    "total_interest": {
+                        "currency_code": "BRL",
+                        "value": "0"
+                    },
+                    "total_cost": {
+                        "currency_code": "BRL",
+                        "value": "100.00"
+                    },
+                    "paypal_subsidy": false
+                }
+            ]
+        }
+    ]
+}

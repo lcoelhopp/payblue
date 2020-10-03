@@ -1,0 +1,13 @@
+Smart Payment Buttons
+https://developer.paypal.com/docs/archive/checkout/how-to/server-integration/#1-set-up-your-client-to-call-your-server
+
+Access Token
+https://developer.paypal.com/docs/api/get-an-access-token-curl/
+
+
+Create Payment
+https://developer.paypal.com/docs/api/payments/v1/#payment_create
+
+
+Execute Payment
+https://developer.paypal.com/docs/api/payments/v1/#payment_execute

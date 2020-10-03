@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+
+
+
+  <script>
+    paypal.Button.render({
+      style: {
+        size: "large",
+        color: "blue",
+        shape: "pill",
+        label: "paypal",
+        tagline: "true",
+      },
+      env: 'sandbox', // Or 'production'
+      // Set up the payment:
+      // 1. Add a payment callback
+      payment: function (data, actions) {
+        // 2. Make a request to your server
+        return actions.request.post('billing-agreement-token.php')
+          .then(function (res) {
+            // 3. Return res.id from the response
+            console.log('billing-agreement-token.php');
+            console.log(res);
+            return res.token_id;
+
+          });
+      },
+      // Execute the payment:
+      // 1. Add an onAuthorize callback
+      onAuthorize: function (data, actions) {
+        // 2. Make a request to your server
+        // return actions.request.post('execute_payment.php', {
+        //   paymentID: data.paymentID,
+        //   payerID:   data.payerID
+        // })
+        return actions.request.post("billing-agreement-create.php", {
+          'baToken': data.billingToken
+        }).then(function (res) {
+          console.log('billing-agreement-token');
+          console.log(res);
+          // 3. Show the buyer a confirmation message.
+
+          window.alert("Obrigada por comprar conosco");
+        });
+      }
+    }, '#paypal-button');
+  </script>
+
+  <section class="container wrap">
+
+
+    <div class="item1">
+      <div class="title">
+        <b>
+          <p>Squier Telecaster Custom </p>
+        </b>
+
+      </div>
+
+      <div class="img1">
+        <img style="width:85%; max-width: 600px; max-height: 300px;" src="tele.jpg" alt="Telecaster">
+      </div>
+
+    </div>
+
+    <div class="item2">
+
+      <b>
+        <p>$1500,00</p>
+      </b>
+      <p style="font-size: 0.5em;">Pay with your PayPal account</p>
+      <p style="font-size: 0.4em;">or</p>
+      <p style="font-size: 0.4em;">Create one by clicking the buton:</p>
+
+      <div id="paypal-button"></div>
+
+    </div>
+
+
+    <div class="item3">
+
+      <div class="description">
+        <p> ipsum dolor, sit amet consectetur adipisicing elit. Ipsam nostrum voluptatibus a deserunt explicabo
+          veritatis itaque eligendi perspiciatis voluptate saepe dolorum fugit, commodi illo adipisci unde
+          officiis, et hic aliquid!</p>
+        <p> ipsum dolor, sit amet consectetur adipisicing elit. Ipsam nostrum voluptatibus a
+          deserunt explicabo veritatis itaque eligendi perspiciatis voluptate saepe dolorum
+          fugit, commodi illo adipisci unde officiis, et hic aliquid! ipsum dolor, sit amet consectetur
+          adipisicing elit. Ipsam nostrum voluptatibus a
+          deserunt explicabo veritatis itaque eligendi perspiciatis voluptate saepe dolorum
+          fugit, commodi illo adipisci unde officiis, et hic aliquid</p>
+        <p> ipsum dolor, sit amet consectetur adipisicing elit. Ipsam nostrum voluptatibus a
+          deserunt explicabo veritatis itaque eligendi perspiciatis voluptate saepe dolorum
+          fugit, commodi illo adipisci unde officiis, et hic aliquid! ipsum dolor, sit amet consectetur
+          adipisicing elit. Ipsam nostrum voluptatibus a
+          deserunt explicabo veritatis itaque eligendi perspiciatis voluptate saepe dolorum
+          fugit, commodi illo adipisci unde officiis, et hic aliquid</p>
+      </div>
+
+    </div>
+  </section>
+
+
+</body>
+
+</html>
